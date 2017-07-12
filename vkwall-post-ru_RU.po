@@ -1,0 +1,115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VKontakte Wall Post\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-02-09 19:02+0300\n"
+"PO-Revision-Date: 2012-02-09 19:10+0300\n"
+"Last-Translator: RudeStan <rudestan@gmail.com>\n"
+"Language-Team: RudeStan <rudestan@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: vkwallpost.php:32
+msgid "Publish to Vkontakte wall"
+msgstr "Публиковать на стене Вконтакте"
+
+#: vkwallpost.php:37
+#: vkwallpost.php:47
+msgid "<div style=\"clear:both;padding-top:8px;\"><em style=\"color:#af0000;\">No <b>Group ID</b> specified!<br/>Please check the <a href=\"options-general.php?page="
+msgstr "<div style=\"clear:both;padding-top:8px;\"><em style=\"color:#af0000;\">Не указан <b>Group ID</b>!<br/>Пожалуйста, проверьте <a href=\"options-general.php?page="
+
+#: vkwallpost.php:39
+#: vkwallpost.php:49
+#: vkwallpost.php:57
+msgid "\">plugin settings</a>.</em></div>"
+msgstr "\">настройки плагина</a>.</em></div>"
+
+#: vkwallpost.php:55
+msgid "<div style=\"clear:both;padding-top:8px;\"><em style=\"color:#af0000;\">No <b>API ID</b> specified!<br/>Please check the <a href=\"options-general.php?page="
+msgstr "<div style=\"clear:both;padding-top:8px;\"><em style=\"color:#af0000;\">Не указан <b>API ID</b>!<br/>Пожалуйста, проверьте <a href=\"options-general.php?page="
+
+#: vkwallpost.php:251
+#: vkwallpost.php:258
+#: vkwallpost.php:309
+msgid "Settings"
+msgstr "Настройки"
+
+#: vkwallpost.php:258
+msgid "VKontakte Wall Post"
+msgstr "VKontakte Wall Post"
+
+#: vkwallpost.php:323
+msgid "To get the APP ID you should follow some easy steps, described below.<br/><br/><ul><li>1. Open <a href=\"http://vkontakte.ru/editapp?act=create&site=1\" target=\"_blank\">this link</a> to connect your site to Vkontakte social.</li><li>2. On form, named <b>\"Connection to API\"</b> type the name of your web site in <b>\"Title\"</b> field.<br/>In this field you can write almost any name e.g. the adress of your<br/>web site. This name will be displayed in the future as signature under your wall post.</li><li>3. The radiobutton <b>\"Category\"</b> should be switched on <b>\"Website\"</b> (default choice).</li><li>4. In the <b>\"Site address\"</b> field please type full address of your web site e.g.: <code>http://www.yoursite.com/</code></li><li>5. In <b>\"Home domain\"</b> field you should type the home domain of your site without \"www\" e.g.: <code>http://yoursite.com/</code></li><li>6. Now you are ready to connect your site. To do so - just click on <b>\"Connect site\"</b> button and in poupup window<br/>type the text from picture.If everything is fine you will be on site settings page.</li><li>7. On site settings page you should copy the value from <b>\"Application ID\"</b> field<br/>and paste it into <b>\"VKontakte API ID\"</b> field above on this page.<br/>If you wish, you can add an icon and description for your site on settings page as well.</li></ul>"
+msgstr "Чтобы получить APP ID вам необходимо выполнить несколько простых шагов, описанных ниже.<br/><br/><ul><li>1. Проследуйте по <a href=\"http://vkontakte.ru/editapp?act=create&site=1\" target=\"_blank\">ссылке</a> чтобы подключить свой сайт.</li><li>2. На открывшейся странице, в форме <b>\"Подключение к API\"</b> укажите название своего сайта в поле <b>\"Название\"</b>.<br/>В данном поле вы можетенаписать любое название к примеру адрес вашего сайта, в последствии<br/>это название будет выводится в подписи под комментарием на стене.</li><li>3. <b>\"Тип\"</b> должен быть выбран <b>\"Веб-сайт\"</b> (выбран по умолчанию).</li><li>4. В поле <b>\"Адрес сайта\"</b> введите полный адрес вашего сайта например: <code>http://www.yoursite.com/</code></li><li>5. В поле <b>\"Базовый домен\"</b> введите адрес сайта с без указания директории \"www\" например: <code>http://yoursite.com/</code></li><li>6. Теперь необходимо нажать кнопку <b>\"Подключить сайт\"</b>. Появится окно ввода текста с картинки - введите текст<br/>с картинки ив случае успеха вы попадете на страницу настроек вашего вновь добавленного сайта.</li><li>7. На странице настроек добавленного вами сайта вам необходимо скопировать числовое значение<br/>поля <b>\"ID приложения\"</b> и вставить егов поле <b>\"VKontakte API ID\"</b> выше на данной странице.</li><br/>По желанию, на странице настроек вашего сайта в Вконтакте вы можете добавить иконку и описание.</ul>"
+
+#: vkwallpost.php:328
+msgid "Publication"
+msgstr "Публикация"
+
+#: vkwallpost.php:332
+msgid "The target of Post"
+msgstr "Публиковать пост на"
+
+#: vkwallpost.php:334
+msgid "Own wall"
+msgstr "Собственную стену"
+
+#: vkwallpost.php:346
+msgid "<b>Group wall</b> (only if you are administartor of that group)"
+msgstr "<b>Стену группы/страницы</b> (только если вы являетесь ее администратором)"
+
+#: vkwallpost.php:355
+msgid "Group id:"
+msgstr "Id Группы:"
+
+#: vkwallpost.php:361
+msgid "Publish from group name"
+msgstr "Публиковать от имени группы"
+
+#: vkwallpost.php:363
+#: vkwallpost.php:375
+#: vkwallpost.php:381
+#: vkwallpost.php:401
+#: vkwallpost.php:407
+msgid "yes"
+msgstr "да"
+
+#: vkwallpost.php:373
+msgid "Attach link to the post:<br/><span style=\"font-size:11px;\">(the link to your post will be attached with the first picture taken from your post)</span>"
+msgstr "Прикреплять ссылку на пост:<br/><span style=\"font-size:11px;\">(ссылка на пост будет прикреплена с первой картинкой из его содержания)</span>"
+
+#: vkwallpost.php:379
+msgid "Post visble to friends only"
+msgstr "Пост виден только для друзей"
+
+#: vkwallpost.php:385
+msgid "Post template:<br/><span style=\"font-size:11px;\">(defines the type of data to send on your wall)</span>"
+msgstr "Шаблон поста:<br/><span style=\"font-size:11px;\">(определяет какие данные отправлять на вашу стену)</span>"
+
+#: vkwallpost.php:388
+msgid "<u>You can use the following:</u><ul><li><code>#permalink#</code> - the user readable link on your post depending on your permanent link format <a href=\"options-permalink.php\">settings</a>.</li><code>#url#</code> - the link on your post in wordpress format (like ?p=id) this link is always unchangeable rather than permalinks that you can change.</li><li><code>#title#</code> - title</li><li><code>#post#</code> - post content without tags</li><li><code>#date#</code> - publication date</li><li><code>#time#</code> - publication time</li></ul>"
+msgstr "Вы можете использовать:<ul><li><code>#permalink#</code> - ЧПУ адрес ссылки в зависимости от формата, выбранного на странице настроек <a href=\"options-permalink.php\">постоянных ссылок</a>.</li><li><code>#url#</code> - ссылка на пост в формате wordpress (например ?p=id) ссылка всегда не изменяема в отличие от ЧПУ ссылок,<br>которые вы можете изменить (при этом пост по старой ЧПУ ссылке станет недоступным).</li><li><code>#title#</code> - название</li><li><code>#post#</code> - текст поста</li><li><code>#date#</code> - дата публикации</li><li><code>#time#</code> - время публикации</li></ul>"
+
+#: vkwallpost.php:392
+msgid "Symbols count for post content:<br><span style=\"font-size:11px;\">(only if you use <code>#post#</code> tag, if you do not want to cut the text - just set the value to 0)</span>"
+msgstr "Количество символов текста поста:<br><span style=\"font-size:11px;\">(в случае если в шаблоне поста вы используете тег <code>#post#</code>, если без ограничений - укажите 0)</span>"
+
+#: vkwallpost.php:399
+msgid "Checkbox \"Publish to Vkontakte wall\" checked by default"
+msgstr "Чекбокс \"Публиковать на стене Вконтакте\" отмечен по умолчанию"
+
+#: vkwallpost.php:405
+msgid "Allow to publish to Vkontakte wall when creating page"
+msgstr "Включить возможность публиковать запись на стену при создании страницы"
+
+#: vkwallpost.php:417
+msgid "Save settings"
+msgstr "Сохранить настройки"
+
